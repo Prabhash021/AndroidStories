@@ -15,6 +15,8 @@ dependencyResolutionManagement {
 
 > Step 2. Add the dependency
 
+-- current version - v1.0.0-beta
+
 ```gradle
 dependencies {
 	        implementation 'com.github.Prabhash021:AndroidStories:Tag'
