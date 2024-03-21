@@ -15,7 +15,7 @@ dependencyResolutionManagement {
 
 > Step 2. Add the dependency
 
--- current version - v1.0.0-beta
+-- current version - 1.0.0
 
 ```gradle
 dependencies {
