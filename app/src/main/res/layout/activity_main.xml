@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.example.mylibrary.Stories
+<!--    <com.example.mylibrary.Stories
         android:id="@+id/stories"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:progressBarBackgroundColor="@color/progressGray"
         app:progressBarColor="@color/teal_700"
         app:storyDuration="5"
-        app:loadingViewProgressColor="@color/teal_200"/>
+        app:loadingViewProgressColor="@color/teal_200"/>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

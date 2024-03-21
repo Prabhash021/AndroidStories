@@ -4,24 +4,24 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.mylibrary.Stories;
-import com.example.mylibrary.StoryItem;
+//import com.example.mylibrary.Stories;
+//import com.example.mylibrary.StoryItem;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    Stories storiesView;
+//    Stories storiesView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        storiesView = findViewById(R.id.stories);
+//        storiesView = findViewById(R.id.stories);
 
-        List<StoryItem> storiesList = Arrays.asList(
+        /*List<StoryItem> storiesList = Arrays.asList(
                 new StoryItem("https://assets.mixkit.co/videos/preview/mixkit-paddleboarder-1166-large.mp4?story_type=video", 1),
                 new StoryItem("https://www.hiphopshakespeare.com/wp-content/uploads/2013/11/dummy-image-portrait.jpg?story_type=img", 0),
                 new StoryItem("https://assets.mixkit.co/videos/preview/mixkit-green-leaves-and-branches-of-a-tree-out-of-focus-34376-large.mp4?story_type=video", 1),
@@ -30,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
                 new StoryItem("https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4?story_type=video", 1)
         );
 
-        storiesView.setStoriesList(storiesList);
+        storiesView.setStoriesList(storiesList);*/
     }
 }
