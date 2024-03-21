@@ -32,6 +32,19 @@ android {
         jvmTarget = "1.8"
     }
 }
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.Prabhash021"
+            artifactId = "storyView"
+            version = "1.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}
 
 dependencies {
 
