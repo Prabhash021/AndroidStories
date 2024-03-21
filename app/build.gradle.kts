@@ -40,6 +40,6 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-//    implementation(project(":StoryView"))
-    /* implementation("com.github.Prabhash021:AndroidStories:0.0.1-beta")*/
+//    implementation(project(":StoryView")) // to add library locally in project
+     implementation("com.github.Prabhash021:AndroidStories:0.0.4-beta")
 }
