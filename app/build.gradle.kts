@@ -41,5 +41,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
 //    implementation(project(":StoryView"))
-     implementation("com.github.Prabhash021:AndroidStories:0.0.1-beta")
+    /* implementation("com.github.Prabhash021:AndroidStories:0.0.1-beta")*/
 }
