@@ -15,7 +15,8 @@ dependencyResolutionManagement {
 
 > Step 2. Add the dependency
 
--- current version: 0.0.4-beta \n
+-- current version: 0.0.4-beta 
+
 [![](https://jitpack.io/v/Prabhash021/AndroidStories.svg)](https://jitpack.io/#Prabhash021/AndroidStories)
 
 ```gradle
